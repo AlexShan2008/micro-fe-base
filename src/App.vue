@@ -9,6 +9,8 @@
     </el-menu>
 
     <router-view></router-view>
+
+    <!-- 下面的两个容器用于挂载子应用 不能删除 -->
     <div id="vueApp"></div>
     <div id="reactApp"></div>
   </div>
