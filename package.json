@@ -5,14 +5,17 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build:qiankun": "ng build --prod --deploy-url http://localhost:7103/",
+    "serve:qiankun": "ng serve --disable-host-check --port 7103 --base-href /angular9 --live-reload false"
   },
   "dependencies": {
     "core-js": "^3.6.5",
     "element-ui": "^2.13.2",
     "qiankun": "^2.0.16",
     "vue": "^2.6.11",
-    "vue-router": "^3.3.4"
+    "vue-router": "^3.3.4",
+    "zone.js": "^0.10.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",

@@ -1,18 +1,14 @@
 <template>
   <div class="home">
-    默认的base
-    <HelloWorld />
+    <h2>默认的基座 Base use Vue.js and qiankun</h2>
+    <h3>SubApp React</h3>
+    <h3>SubApp Vue</h3>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
 export default {
   name: "Home",
-  components: {
-    HelloWorld,
-  },
+  components: {},
 };
 </script>
