@@ -35,6 +35,20 @@ export default [
         }
 
     },
+    {
+        name: 'onlineApp', // app name registered
+        // entry: '//localhost:3000', // 默认会加载这个html 解析里面的js 动态的执行 （子应用必须支持跨域）fetch
+        entry: '//cicd.alexshan.com/index.html', // 默认会加载这个html 解析里面的js 动态的执行 （子应用必须支持跨域）fetch
+        container: '#onlineApp', // 容器名
+        activeRule: '/online', // 激活的路径
+        // loader,
+        props: {
+            BASE_STORE: {
+                title: 'I am Online App from base App'
+            }
+        }
+
+    },
     // {
     //     name: 'angularApp', // app name registered
     //     entry: '//localhost:7102', // 默认会加载这个html 解析里面的js 动态的执行 （子应用必须支持跨域）fetch

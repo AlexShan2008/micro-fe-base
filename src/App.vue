@@ -6,6 +6,7 @@
       <!--引用其他子应用-->
       <el-menu-item index="/react">react应用</el-menu-item>
       <el-menu-item index="/vue">vue应用</el-menu-item>
+      <el-menu-item index="/online">react online 应用</el-menu-item>
       <!-- <el-menu-item index="/angular">angular应用</el-menu-item> -->
     </el-menu>
 
@@ -14,6 +15,7 @@
     <!-- 下面的两个容器用于挂载子应用 不能删除 -->
     <div id="vueApp"></div>
     <div id="reactApp"></div>
+    <div id="onlineApp"></div>
     <!-- <div id="angularApp"></div> -->
   </div>
 </template>
