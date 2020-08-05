@@ -5,7 +5,7 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import { registerMicroApps, start, runAfterFirstMounted, initGlobalState } from 'qiankun'
 import apps from './apps'
-
+import './index.css'
 // for angular subapp
 // import 'zone.js';
 
