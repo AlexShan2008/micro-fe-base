@@ -10,21 +10,21 @@
     "serve:qiankun": "ng serve --disable-host-check --port 7103 --base-href /angular9 --live-reload false"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
-    "element-ui": "^2.13.2",
-    "qiankun": "^2.0.16",
-    "vue": "^2.6.11",
-    "vue-router": "^3.3.4",
-    "zone.js": "^0.10.3"
+    "core-js": "^3.9.1",
+    "element-ui": "^2.15.1",
+    "qiankun": "^2.4.0",
+    "vue": "^2.6.12",
+    "vue-router": "^3.5.1",
+    "zone.js": "^0.11.4"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.4.0",
-    "@vue/cli-plugin-eslint": "~4.4.0",
-    "@vue/cli-service": "~4.4.0",
+    "@vue/cli-plugin-babel": "~4.5.11",
+    "@vue/cli-plugin-eslint": "~4.5.11",
+    "@vue/cli-service": "~4.5.11",
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
+    "eslint": "^7.22.0",
+    "eslint-plugin-vue": "^7.7.0",
+    "vue-template-compiler": "^2.6.12"
   },
   "eslintConfig": {
     "root": true,
